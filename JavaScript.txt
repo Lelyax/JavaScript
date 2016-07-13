@@ -4,3 +4,5 @@ JavaScript ex
 HTML & CSS
 
 JavaScript --> Loops, Arrays & Objects
+
+jQuery
