@@ -6,3 +6,5 @@ HTML & CSS
 JavaScript --> Loops, Arrays & Objects
 
 jQuery
+
+jQuery & Bootstrap
