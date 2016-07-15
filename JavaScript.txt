@@ -8,3 +8,5 @@ JavaScript --> Loops, Arrays & Objects
 jQuery
 
 jQuery & Bootstrap
+
+Bootstrap & Tables
