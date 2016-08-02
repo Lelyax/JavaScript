@@ -12,3 +12,5 @@ jQuery & Bootstrap
 Bootstrap & Tables
 
 Video & Audio
+
+JavaScript
