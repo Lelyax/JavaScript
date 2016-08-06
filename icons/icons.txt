@@ -1,0 +1,7 @@
+pinterest: ion-social-pinterest
+instagram: ion-social-instagram-outline
+facebook: ion-social-facebook
+twitter: ion-social-twitter
+heart: ion-heart
+arrow down: ion-chevron-down, ion-ios-arrow-down
+arrow left: ion-chevron-left, ion-ios-arrow-left 
