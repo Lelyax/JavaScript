@@ -1,0 +1,18 @@
+{{!
+ listitem.hbs
+
+ handlebars template for a shopping list
+}}
+
+<h1>Matt's Shopping List</h1>
+
+<ul style="list-style-type:none">
+    {{#each items}}
+        <li>
+            <input type="checkbox" {{#if done}}checked{{/if}}>
+            {{quantity}} {{name}}
+            </input>
+        </li>
+    {{/each}}
+    {{name}}
+</ul>
