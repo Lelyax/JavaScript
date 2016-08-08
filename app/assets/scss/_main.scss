@@ -1,13 +1,17 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
+
+
 
 header {
-  background-image: url("../img/header/mountain.jpg"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-image: url($headerBackgroundImage), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   background-size: cover;
   background-position: center;
-  height: 100vh; }
+  height: 100vh;
+}
 
 .logo {
   margin: 0;
@@ -16,33 +20,40 @@ header {
   color: white;
   float: left;
   font-family: 'Josefin Sans', 'Arial', sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+}
 
 .btn {
   display: inline-block;
   text-decoration: none;
   padding: 20px 40px;
   font-weight: 300;
-  transition: color 0.2s ease; }
-  .btn:hover {
-    color: #924d10; }
+  transition: color 0.2s ease;
+  &:hover{
+    color: $mainColorDarken;
+  }
+}
 
 .navigation {
-  width: 100%; }
+  width: 100%;
+}
 
 .main-nav {
   float: right;
   list-style: none;
   margin-top: 5px;
-  font-family: 'Josefin Sans', 'Arial', sans-serif; }
-  .main-nav li {
+  font-family: 'Josefin Sans', 'Arial', sans-serif;
+  li {
     display: inline-block;
-    margin-left: 40px; }
-    .main-nav li a {
-      color: #e67e22;
+    margin-left: 40px;
+    a {
+      color: $mainColor;
       text-decoration: none;
       text-transform: capitalize;
-      font-size: 25px; }
+      font-size: 25px;
+    }
+  }
+}
 
 .header-text-box {
   position: absolute;
@@ -53,22 +64,26 @@ header {
   transform: translate(-50%, -50%);
   font-family: 'Josefin Sans', 'Arial', sans-serif;
   font-weight: 100;
-  text-align: center; }
-  .header-text-box p {
+  text-align: center;
+  p {
     margin: 0;
     color: #fff;
     font-size: 300%;
     font-weight: 300;
     letter-spacing: 1px;
-    word-spacing: 4px; }
+    word-spacing: 4px;
+  }
+}
 
-header .icon-arrow-down {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  right: 50%;
-  margin: 0 auto;
-  color: #e67e22;
-  font-size: 60px; }
+header {
+  .icon-arrow-down {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    margin: 0 auto;
+    color: $mainColor;
+    font-size: 60px;
+  }
+}
 
-/*# sourceMappingURL=style.css.map */
