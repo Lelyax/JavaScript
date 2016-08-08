@@ -1,0 +1,22 @@
+{
+  "name": "new-zealand",
+  "version": "0.1.0",
+  "description": "blog about new zealand",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lelyax/JavaScript.git"
+  },
+  "author": "Ada Markowska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lelyax/JavaScript/issues"
+  },
+  "homepage": "https://github.com/Lelyax/JavaScript#readme",
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
+}

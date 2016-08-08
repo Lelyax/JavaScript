@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$headerBackgroundImage: 'assets/img/header/mountain.jpg';
+
+header {
+    background-image: url("../img/header/mountain.jpg"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+    margin: 0;
+    font-size: 50px;
+    padding: 20px 40px;
+    color: white;
+    float: left;
+    font-family: 'Josefin Sans', 'Arial', sans-serif;
+    font-weight: 300;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 40px;
+    font-weight: 300;
+    transition: color 0.2s ease;
+}
+
+.btn:hover {
+    color: #8c360f;
+}
+
+.navigation {
+    width: 100%;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a {
+    color: #e67e22;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+
+.header-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    font-family: 'Josefin Sans';
+    font-weight: 100;
+    text-align: center;
+}
+
+.header-text-box p {
+    margin: 0;
+    color: #fff;
+    font-size: 300%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.header-text-box p m {
+    font-size: 20px;
+}
+
+.icon-arrow-down-thick {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    margin: 0 auto;
+    color: #e67e22;
+    font-size: 60px;
+}
