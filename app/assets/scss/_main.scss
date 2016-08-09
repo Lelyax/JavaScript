@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: red;
+  background-color: seashell;
 }
 
 header {
@@ -49,7 +49,7 @@ header {
   font-family: 'Josefin Sans', 'Arial', sans-serif;
   li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 25px;
     a {
       color: $mainColor;
       text-decoration: none;
@@ -99,25 +99,57 @@ header {
     background-color: white;
     text-align: center;
     position: relative;
+    border: 1px solid #f2dede;
+    font-family: 'Josefin Sans', 'Arial', sans-serif;
     header {
       padding-bottom: 20px;
+      h3 {
+        font-family: 'Josefin Sans', 'Arial', sans-serif;
+      }
+    }
+  }
+
+  &.small {
+    .post-container {
+      padding-top: 0;
+      .image-container {
+       height: 240px;
+        img {
+          width: auto;
+          height: 100%;
+        }
+      }
     }
   }
 
   .image-container {
     overflow: hidden;
-    height: 300px;
+    height: 400px;
     position: relative;
      img {
        position: absolute;
        left: 0;
-
+       width:100%;
      }
   }
 
   .content {
     padding: 20px;
+    font-family: 'Lato', 'Arial', sans-serif;
+    color: dimgrey;
+    h3 {
+      font-family: 'Indie Flower', 'Arial', sans-serif;
+    }
   }
 }
 
+  .sidebar {
+    .image-container {
+      height: auto;
+      img {
+        position: relative;
+        width: 80%;
+      }
+    }
+  }
 
