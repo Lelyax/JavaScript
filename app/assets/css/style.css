@@ -3,7 +3,10 @@
   padding: 0;
   box-sizing: border-box; }
 
-header {
+body {
+  background-color: red; }
+
+header.bg-image {
   background-image: url("../img/header/mountain.jpg"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   background-size: cover;
   background-position: center;
@@ -70,5 +73,24 @@ header .icon-arrow-down {
   margin: 0 auto;
   color: #e67e22;
   font-size: 60px; }
+
+.post .post-container {
+  padding: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  text-align: center;
+  position: relative; }
+  .post .post-container header {
+    padding-bottom: 20px; }
+.post .image-container {
+  overflow: hidden;
+  height: 300px;
+  position: relative; }
+  .post .image-container img {
+    position: absolute;
+    left: 0; }
+.post .content {
+  padding: 20px; }
 
 /*# sourceMappingURL=style.css.map */
