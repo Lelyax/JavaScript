@@ -54,7 +54,7 @@ header.bg-image {
   left: 50%;
   color: #fff;
   transform: translate(-50%, -50%);
-  font-family: 'Josefin Sans', 'Arial', sans-serif;
+  font-family: 'Lobster', 'Arial', sans-serif;
   font-weight: 100;
   text-align: center; }
   .header-text-box p {
@@ -82,11 +82,11 @@ header .icon-arrow-down {
   text-align: center;
   position: relative;
   border: 1px solid #f2dede;
-  font-family: 'Josefin Sans', 'Arial', sans-serif; }
+  font-family: 'Lobster', 'Arial', sans-serif; }
   .post .post-container header {
     padding-bottom: 20px; }
     .post .post-container header h3 {
-      font-family: 'Josefin Sans', 'Arial', sans-serif; }
+      font-family: 'Didact Gothic', 'Arial', sans-serif; }
 .post.small .post-container {
   padding-top: 0; }
   .post.small .post-container .image-container {
@@ -114,5 +114,10 @@ header .icon-arrow-down {
   .sidebar .image-container img {
     position: relative;
     width: 80%; }
+
+.newsletter-btn {
+  padding: 20px; }
+  .newsletter-btn .btn-send {
+    margin-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */
