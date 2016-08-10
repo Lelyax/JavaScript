@@ -113,11 +113,32 @@ header .icon-arrow-down {
   height: auto; }
   .sidebar .image-container img {
     position: relative;
-    width: 80%; }
+    width: 30%; }
 
 .newsletter-btn {
   padding: 20px; }
   .newsletter-btn .btn-send {
     margin-top: 10px; }
+
+.gallery .edit {
+  padding: 0; }
+  .gallery .edit img {
+    width: 100%; }
+
+.icons {
+  font-size: 150%; }
+  .icons .icon {
+    margin: 10px; }
+    .icons .icon:hover {
+      color: #924d10; }
+
+/*.post-list {
+  box-shadow: 0 2px 5px rgba(91,81,73,0.08);
+}*/
+.entry-title {
+  margin-top: 3px;
+  color: #2f2e2e;
+  font-size: 13px;
+  font-weight: 400; }
 
 /*# sourceMappingURL=style.css.map */
