@@ -183,4 +183,19 @@ ul {
 .recent-posts-img {
   padding-left: 20px; }
 
+.lista li {
+  position: relative;
+  width: 100%; }
+  .lista li:after {
+    position: absolute;
+    content: '';
+    width: 60%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-top: 1px solid #f2dede;
+    bottom: -20px; }
+  .lista li:last-child:after {
+    border: none; }
+
 /*# sourceMappingURL=style.css.map */
