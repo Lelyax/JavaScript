@@ -30,10 +30,10 @@ header {
 .btn {
   display: inline-block;
   text-decoration: none;
-  padding: 20px 40px;
+  padding: 10px 40px;
   font-weight: 300;
   transition: color 0.2s ease;
-  &:hover{
+  &:hover {
     color: $mainColorDarken;
   }
 }
@@ -113,7 +113,7 @@ header {
     .post-container {
       padding-top: 0;
       .image-container {
-       height: 240px;
+        height: 240px;
         img {
           width: auto;
           height: 100%;
@@ -126,11 +126,11 @@ header {
     overflow: hidden;
     height: 400px;
     position: relative;
-     img {
-       position: absolute;
-       left: 0;
-       width:100%;
-     }
+    img {
+      position: absolute;
+      left: 0;
+      width: 100%;
+    }
   }
 
   .content {
@@ -143,15 +143,15 @@ header {
   }
 }
 
-  .sidebar {
-    .image-container {
-      height: auto;
-      img {
-        position: relative;
-        width: 30%;
-      }
+.sidebar {
+  .image-container {
+    height: auto;
+    img {
+      position: relative;
+      width: 30%;
     }
   }
+}
 
 .newsletter-btn {
   padding: 20px;
@@ -173,7 +173,7 @@ header {
   font-size: 150%;
   .icon {
     margin: 10px;
-    &:hover{
+    &:hover {
       color: $mainColorDarken;
     }
   }
@@ -184,8 +184,59 @@ header {
 }*/
 
 .entry-title {
-    margin-top: 3px;
-    color: #2f2e2e;
-    font-size: 13px;
-    font-weight: 400;
+  margin-top: 3px;
+  color: #2f2e2e;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.posted-on {
+  display: block;
+  margin-top: 8px;
+  color: #bbb;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  li {
+    display: table;
+    margin-bottom: 20px;
+    .recent-posts-content {
+      padding-left: 15px;
+      display: table-cell;
+      vertical-align: middle;
+      h5 {
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 400;
+        a {
+          color: inherit;
+          text-decoration: none;
+          display: inline-block;
+          -webkit-transition: 0.4s;
+          -o-transition: 0.4s;
+          transition: 0.4s;
+          span {
+            font-family: "Lato", serif;
+            font-size: 12px;
+            color: rgba(0, 0, 0, 0.6);
+            font-style: italic;
+            line-height: 26px;
+            .recent-posts-img {
+              width: 55px;
+              height: 55px;
+              float: left;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.recent-posts-img {
+  padding-left: 20px;
 }
