@@ -4,45 +4,55 @@
   box-sizing: border-box; }
 
 body {
-  background-color: seashell; }
+  background-color: #FFF4EA; }
 
 header.bg-image {
-  background-image: url("../img/header/mountain.jpg"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-image: url("../img/header/mountain_2.jpg"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   background-size: cover;
+  width: 1140px;
+  margin: auto;
   background-position: center;
-  height: 100vh; }
+  height: 50vh; }
 
 .logo {
   margin: 0;
-  font-size: 50px;
-  padding: 20px 40px;
-  color: white;
-  float: left;
   font-family: 'Josefin Sans', 'Arial', sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 200px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #B2967D; }
+
+.container-logo {
+  padding-bottom: 10px;
+  height: 200px;
+  border-bottom: 1px solid #e8e8e8;
+  width: 1140px;
+  margin: auto; }
+
+.menu {
+  height: 100px;
+  position: relative;
+  width: 1140px;
+  margin: auto; }
 
 .btn {
-  display: inline-block;
   text-decoration: none;
-  padding: 10px 40px;
   font-weight: 300;
   transition: color 0.2s ease; }
   .btn:hover {
-    color: #924d10; }
-
-.navigation {
-  width: 100%; }
+    color: #c8a582; }
 
 .main-nav {
   float: right;
   list-style: none;
-  margin-top: 5px;
   font-family: 'Josefin Sans', 'Arial', sans-serif; }
   .main-nav li {
     display: inline-block;
     margin-left: 25px; }
     .main-nav li a {
-      color: #e67e22;
+      color: #E7D8C9;
       text-decoration: none;
       text-transform: capitalize;
       font-size: 25px; }
@@ -58,30 +68,21 @@ header.bg-image {
   font-weight: 100;
   text-align: center; }
   .header-text-box p {
-    margin: 0;
+    margin-top: 30%;
     color: #fff;
-    font-size: 300%;
+    font-size: 200%;
     font-weight: 300;
     letter-spacing: 1px;
     word-spacing: 4px; }
-
-header .icon-arrow-down {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  right: 50%;
-  margin: 0 auto;
-  color: #e67e22;
-  font-size: 60px; }
 
 .post .post-container {
   padding: 20px 0;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: white;
+  background-color: #FFFAF9;
   text-align: center;
   position: relative;
-  border: 1px solid #f2dede;
+  border: 1px solid #F4EBE8;
   font-family: 'Lobster', 'Arial', sans-serif; }
   .post .post-container header {
     padding-bottom: 20px; }
@@ -130,7 +131,7 @@ header .icon-arrow-down {
   .icons .icon {
     margin: 10px; }
     .icons .icon:hover {
-      color: #924d10; }
+      color: #c8a582; }
 
 /*.post-list {
   box-shadow: 0 2px 5px rgba(91,81,73,0.08);

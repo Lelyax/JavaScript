@@ -5,32 +5,48 @@
 }
 
 body {
-  background-color: seashell;
+  background-color: #FFF4EA;
 }
 
 header {
   &.bg-image {
     background-image: url($headerBackgroundImage), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     background-size: cover;
+    width: 1140px;
+    margin: auto;
     background-position: center;
-    height: 100vh;
+    height: 50vh;
   }
 }
 
+
 .logo {
   margin: 0;
-  font-size: 50px;
-  padding: 20px 40px;
-  color: white;
-  float: left;
   font-family: 'Josefin Sans', 'Arial', sans-serif;
   font-weight: 300;
+  font-size: 72px;
+  line-height: 200px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #B2967D;
+}
+.container-logo {
+  padding-bottom: 10px;
+  height: 200px;
+  border-bottom: 1px solid #e8e8e8;
+  width: 1140px;
+  margin: auto;
+}
+
+.menu {
+  height: 100px;
+  position: relative;
+  width: 1140px;
+  margin: auto;
 }
 
 .btn {
-  display: inline-block;
   text-decoration: none;
-  padding: 10px 40px;
   font-weight: 300;
   transition: color 0.2s ease;
   &:hover {
@@ -38,14 +54,9 @@ header {
   }
 }
 
-.navigation {
-  width: 100%;
-}
-
 .main-nav {
   float: right;
   list-style: none;
-  margin-top: 5px;
   font-family: 'Josefin Sans', 'Arial', sans-serif;
   li {
     display: inline-block;
@@ -70,24 +81,12 @@ header {
   font-weight: 100;
   text-align: center;
   p {
-    margin: 0;
+    margin-top: 30%;
     color: #fff;
-    font-size: 300%;
+    font-size: 200%;
     font-weight: 300;
     letter-spacing: 1px;
     word-spacing: 4px;
-  }
-}
-
-header {
-  .icon-arrow-down {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    right: 50%;
-    margin: 0 auto;
-    color: $mainColor;
-    font-size: 60px;
   }
 }
 
@@ -96,10 +95,10 @@ header {
     padding: 20px 0;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: white;
+    background-color: #FFFAF9;
     text-align: center;
     position: relative;
-    border: 1px solid #f2dede;
+    border: 1px solid #F4EBE8;
     font-family: 'Lobster', 'Arial', sans-serif;
     header {
       padding-bottom: 20px;
