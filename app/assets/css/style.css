@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+.container {
+  padding-bottom: 50px; }
+
 body {
   background-color: #FFF4EA; }
 
@@ -22,7 +25,7 @@ header.bg-image {
   line-height: 200px;
   text-align: center;
   text-transform: uppercase;
-  color: #B2967D; }
+  color: #75485E; }
 
 .container-logo {
   padding-bottom: 10px;
@@ -42,7 +45,7 @@ header.bg-image {
   font-weight: 300;
   transition: color 0.2s ease; }
   .btn:hover {
-    color: #c8a582; }
+    color: #A26769; }
 
 .main-nav {
   float: right;
@@ -52,7 +55,7 @@ header.bg-image {
     display: inline-block;
     margin-left: 25px; }
     .main-nav li a {
-      color: #E7D8C9;
+      color: #EB9486;
       text-decoration: none;
       text-transform: capitalize;
       font-size: 25px; }
@@ -64,7 +67,7 @@ header.bg-image {
   left: 50%;
   color: #fff;
   transform: translate(-50%, -50%);
-  font-family: 'Lobster', 'Arial', sans-serif;
+  font-family: 'Reenie Beanie', 'Arial', sans-serif;
   font-weight: 100;
   text-align: center; }
   .header-text-box p {
@@ -131,7 +134,7 @@ header.bg-image {
   .icons .icon {
     margin: 10px; }
     .icons .icon:hover {
-      color: #c8a582; }
+      color: #A26769; }
 
 /*.post-list {
   box-shadow: 0 2px 5px rgba(91,81,73,0.08);
@@ -198,5 +201,47 @@ ul {
     bottom: -20px; }
   .lista li:last-child:after {
     border: none; }
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: white; }
+
+.footer-gallery {
+  clear: both;
+  overflow: hidden; }
+  .footer-gallery li {
+    float: left;
+    width: 12.5%;
+    list-style-type: none;
+    display: inline-block; }
+    .footer-gallery li img {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+      transition: opacity 0.2s;
+      padding: 10px; }
+
+.footer-text {
+  text-align: center;
+  font-family: 'Lato', 'Arial', sans-serif;
+  padding-bottom: 20px; }
+
+.footer-text-gallery {
+  text-align: center;
+  font-family: 'Lato', 'Arial', sans-serif;
+  padding-bottom: 30px; }
+
+.footer .icons {
+  padding-top: 15px; }
+
+.btn-primary {
+  background-color: #EB9486;
+  border-color: #A26769; }
+  .btn-primary:hover {
+    background-color: #A26769;
+    border-color: #A26769;
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */
