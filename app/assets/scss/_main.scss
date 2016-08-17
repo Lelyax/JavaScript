@@ -12,6 +12,27 @@ body {
   background-color: seashell;
 }
 
+h5 {
+  color: #061A40;
+  padding-top: 15px;
+  font-family: 'Didact Gothic', 'Arial', sans-serif;
+}
+
+ul {
+  list-style: none;
+  li {
+    display: table;
+    margin-bottom: 20px;
+    .recent-posts-content {
+      padding-left: 15px;
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+}
+
+// ------------HEADER-----------
+
 header {
   &.bg-image {
     background-image: url($headerBackgroundImage), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
@@ -23,6 +44,7 @@ header {
   }
 }
 
+// LOGO
 
 .logo {
   margin: 0;
@@ -41,6 +63,8 @@ header {
   width: 1140px;
   margin: auto;
 }
+
+// NAVIGATION
 
 .menu {
   height: 100px;
@@ -74,6 +98,8 @@ header {
   }
 }
 
+// TEXT-BOX
+
 .header-text-box {
   position: absolute;
   width: 1140px;
@@ -94,6 +120,8 @@ header {
   }
 }
 
+// ------------POSTS-----------
+
 .post {
   .post-container {
     padding: 20px 0;
@@ -112,6 +140,9 @@ header {
     }
   }
 
+
+  // SMALL POSTS
+
   &.small {
     .post-container {
       padding-top: 0;
@@ -125,17 +156,6 @@ header {
     }
   }
 
-  .image-container {
-    overflow: hidden;
-    height: 400px;
-    position: relative;
-    img {
-      position: absolute;
-      left: 0;
-      width: 100%;
-    }
-  }
-
   .content {
     padding: 20px;
     font-family: 'Lato', 'Arial', sans-serif;
@@ -146,16 +166,61 @@ header {
   }
 }
 
-.sidebar {
-  .image-container {
-    height: auto;
-    img {
-      position: relative;
-      width: 30%;
+// ------------SIDEBAR-----------
+
+.sidebar-container {
+  padding: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  font-family: 'Lobster', 'Arial', sans-serif;
+  header {
+    padding-bottom: 20px;
+    h3 {
+      font-family: 'Didact Gothic', 'Arial', sans-serif;
     }
   }
 }
 
+.image-container {
+  height: auto;
+  img {
+    position: relative;
+    width: 30%;
+  }
+}
+
+.big-image-container {
+  img {
+    position: relative;
+    width: 749px;
+    height: 400px;
+  }
+}
+
+.list {
+  li {
+    position: relative;
+    width: 100%;
+    &:after {
+      position: absolute;
+      content: '';
+      width: 60%;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      border-top: 1px solid #f2dede;
+      bottom: -20px;
+      .recent-posts-img {
+        padding-left: 20px;
+      }
+    }
+    &:last-child:after {
+      border: none;
+    }
+  }
+}
 
 .newsletter-btn {
   padding: 20px;
@@ -183,85 +248,17 @@ header {
   }
 }
 
-/*.post-list {
-  box-shadow: 0 2px 5px rgba(91,81,73,0.08);
-}*/
-
-.entry-title {
-  margin-top: 3px;
-  color: #2f2e2e;
-  font-size: 13px;
-  font-weight: 400;
-}
-
-.posted-on {
-  display: block;
-  margin-top: 8px;
-  color: #bbb;
-  font-size: 12px;
-  font-weight: 400;
-}
-
-ul {
-  list-style: none;
-  li {
-    display: table;
-    margin-bottom: 20px;
-    .recent-posts-content {
-      padding-left: 15px;
-      display: table-cell;
-      vertical-align: middle;
-      h5 {
-        font-size: 15px;
-        line-height: 18px;
-        font-weight: 400;
-        a {
-          color: inherit;
-          text-decoration: none;
-          display: inline-block;
-          -webkit-transition: 0.4s;
-          -o-transition: 0.4s;
-          transition: 0.4s;
-          span {
-            font-family: "Lato", serif;
-            font-size: 12px;
-            font-style: italic;
-            line-height: 26px;
-            .recent-posts-img {
-              width: 55px;
-              height: 55px;
-              float: left;
-            }
-          }
-        }
-      }
-    }
+.btn-primary {
+  background-color: #4D7EA8;
+  border-color: #4D7EA8;
+  &:hover {
+    background-color: #2541B2;
+    border-color: #2541B2;
+    color: white;
   }
 }
 
-.recent-posts-img {
-  padding-left: 20px;
-}
-
-.lista {
-  li {
-    position: relative;
-    width: 100%;
-    &:after {
-      position: absolute;
-      content: '';
-      width: 60%;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-      border-top: 1px solid #f2dede;
-      bottom: -20px;
-    }
-    &:last-child:after {
-      border: none;
-    }
-  }
-}
+// ------------FOOTER-----------
 
 .footer {
   padding-top: 20px;
@@ -309,18 +306,3 @@ ul {
   }
 }
 
-.btn-primary {
-  background-color: #4D7EA8;
-  border-color: #4D7EA8;
-  &:hover {
-    background-color: #2541B2;
-    border-color: #2541B2;
-    color: white;
-  }
-}
-
-h5 {
-  color: #061A40;
-  padding-top: 15px;
-  font-family: 'Didact Gothic', 'Arial', sans-serif;
-}

@@ -9,6 +9,21 @@
 body {
   background-color: seashell; }
 
+h5 {
+  color: #061A40;
+  padding-top: 15px;
+  font-family: 'Didact Gothic', 'Arial', sans-serif; }
+
+ul {
+  list-style: none; }
+  ul li {
+    display: table;
+    margin-bottom: 20px; }
+    ul li .recent-posts-content {
+      padding-left: 15px;
+      display: table-cell;
+      vertical-align: middle; }
+
 header.bg-image {
   background-image: url("../img/header/mountain_2.jpg"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   background-size: cover;
@@ -98,14 +113,6 @@ header.bg-image {
     .post.small .post-container .image-container img {
       width: auto;
       height: 100%; }
-.post .image-container {
-  overflow: hidden;
-  height: 400px;
-  position: relative; }
-  .post .image-container img {
-    position: absolute;
-    left: 0;
-    width: 100%; }
 .post .content {
   padding: 20px;
   font-family: 'Lato', 'Arial', sans-serif;
@@ -113,11 +120,45 @@ header.bg-image {
   .post .content h3 {
     font-family: 'Indie Flower', 'Arial', sans-serif; }
 
-.sidebar .image-container {
+.sidebar-container {
+  padding: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  font-family: 'Lobster', 'Arial', sans-serif; }
+  .sidebar-container header {
+    padding-bottom: 20px; }
+    .sidebar-container header h3 {
+      font-family: 'Didact Gothic', 'Arial', sans-serif; }
+
+.image-container {
   height: auto; }
-  .sidebar .image-container img {
+  .image-container img {
     position: relative;
     width: 30%; }
+
+.big-image-container img {
+  position: relative;
+  width: 749px;
+  height: 400px; }
+
+.list li {
+  position: relative;
+  width: 100%; }
+  .list li:after {
+    position: absolute;
+    content: '';
+    width: 60%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-top: 1px solid #f2dede;
+    bottom: -20px; }
+    .list li:after .recent-posts-img {
+      padding-left: 20px; }
+  .list li:last-child:after {
+    border: none; }
 
 .newsletter-btn {
   padding: 20px; }
@@ -136,69 +177,13 @@ header.bg-image {
     .icons .icon:hover {
       color: #4D7EA8; }
 
-/*.post-list {
-  box-shadow: 0 2px 5px rgba(91,81,73,0.08);
-}*/
-.entry-title {
-  margin-top: 3px;
-  color: #2f2e2e;
-  font-size: 13px;
-  font-weight: 400; }
-
-.posted-on {
-  display: block;
-  margin-top: 8px;
-  color: #bbb;
-  font-size: 12px;
-  font-weight: 400; }
-
-ul {
-  list-style: none; }
-  ul li {
-    display: table;
-    margin-bottom: 20px; }
-    ul li .recent-posts-content {
-      padding-left: 15px;
-      display: table-cell;
-      vertical-align: middle; }
-      ul li .recent-posts-content h5 {
-        font-size: 15px;
-        line-height: 18px;
-        font-weight: 400; }
-        ul li .recent-posts-content h5 a {
-          color: inherit;
-          text-decoration: none;
-          display: inline-block;
-          -webkit-transition: 0.4s;
-          -o-transition: 0.4s;
-          transition: 0.4s; }
-          ul li .recent-posts-content h5 a span {
-            font-family: "Lato", serif;
-            font-size: 12px;
-            font-style: italic;
-            line-height: 26px; }
-            ul li .recent-posts-content h5 a span .recent-posts-img {
-              width: 55px;
-              height: 55px;
-              float: left; }
-
-.recent-posts-img {
-  padding-left: 20px; }
-
-.lista li {
-  position: relative;
-  width: 100%; }
-  .lista li:after {
-    position: absolute;
-    content: '';
-    width: 60%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    border-top: 1px solid #f2dede;
-    bottom: -20px; }
-  .lista li:last-child:after {
-    border: none; }
+.btn-primary {
+  background-color: #4D7EA8;
+  border-color: #4D7EA8; }
+  .btn-primary:hover {
+    background-color: #2541B2;
+    border-color: #2541B2;
+    color: white; }
 
 .footer {
   padding-top: 20px;
@@ -235,18 +220,5 @@ ul {
 
 .footer .icons {
   padding-top: 15px; }
-
-.btn-primary {
-  background-color: #4D7EA8;
-  border-color: #4D7EA8; }
-  .btn-primary:hover {
-    background-color: #2541B2;
-    border-color: #2541B2;
-    color: white; }
-
-h5 {
-  color: #061A40;
-  padding-top: 15px;
-  font-family: 'Didact Gothic', 'Arial', sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
