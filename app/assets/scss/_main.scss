@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #FFF4EA ;
+  background-color: seashell;
 }
 
 header {
@@ -32,7 +32,7 @@ header {
   line-height: 200px;
   text-align: center;
   text-transform: uppercase;
-  color: #75485E;
+  color: #111D4A;
 }
 .container-logo {
   padding-bottom: 10px;
@@ -139,7 +139,7 @@ header {
   .content {
     padding: 20px;
     font-family: 'Lato', 'Arial', sans-serif;
-    color: dimgrey;
+    color: #2B303A;
     h3 {
       font-family: 'Indie Flower', 'Arial', sans-serif;
     }
@@ -178,7 +178,7 @@ header {
   .icon {
     margin: 10px;
     &:hover {
-      color: $mainColorDarken;
+      color: $mainColor;
     }
   }
 }
@@ -212,7 +212,6 @@ ul {
       display: table-cell;
       vertical-align: middle;
       h5 {
-        color: rgba(0, 0, 0, 0.8);
         font-size: 15px;
         line-height: 18px;
         font-weight: 400;
@@ -226,7 +225,6 @@ ul {
           span {
             font-family: "Lato", serif;
             font-size: 12px;
-            color: rgba(0, 0, 0, 0.6);
             font-style: italic;
             line-height: 26px;
             .recent-posts-img {
@@ -312,12 +310,17 @@ ul {
 }
 
 .btn-primary {
-  background-color: #EB9486;
-  border-color: #A26769;
+  background-color: #4D7EA8;
+  border-color: #4D7EA8;
   &:hover {
-    background-color: #A26769;
-    border-color: #A26769;
+    background-color: #2541B2;
+    border-color: #2541B2;
     color: white;
   }
 }
 
+h5 {
+  color: #061A40;
+  padding-top: 15px;
+  font-family: 'Didact Gothic', 'Arial', sans-serif;
+}

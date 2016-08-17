@@ -7,7 +7,7 @@
   padding-bottom: 50px; }
 
 body {
-  background-color: #FFF4EA; }
+  background-color: seashell; }
 
 header.bg-image {
   background-image: url("../img/header/mountain_2.jpg"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
@@ -25,7 +25,7 @@ header.bg-image {
   line-height: 200px;
   text-align: center;
   text-transform: uppercase;
-  color: #75485E; }
+  color: #111D4A; }
 
 .container-logo {
   padding-bottom: 10px;
@@ -45,7 +45,7 @@ header.bg-image {
   font-weight: 300;
   transition: color 0.2s ease; }
   .btn:hover {
-    color: #A26769; }
+    color: #2541B2; }
 
 .main-nav {
   float: right;
@@ -55,7 +55,7 @@ header.bg-image {
     display: inline-block;
     margin-left: 25px; }
     .main-nav li a {
-      color: #EB9486;
+      color: #4D7EA8;
       text-decoration: none;
       text-transform: capitalize;
       font-size: 25px; }
@@ -109,7 +109,7 @@ header.bg-image {
 .post .content {
   padding: 20px;
   font-family: 'Lato', 'Arial', sans-serif;
-  color: dimgrey; }
+  color: #2B303A; }
   .post .content h3 {
     font-family: 'Indie Flower', 'Arial', sans-serif; }
 
@@ -134,7 +134,7 @@ header.bg-image {
   .icons .icon {
     margin: 10px; }
     .icons .icon:hover {
-      color: #A26769; }
+      color: #4D7EA8; }
 
 /*.post-list {
   box-shadow: 0 2px 5px rgba(91,81,73,0.08);
@@ -162,7 +162,6 @@ ul {
       display: table-cell;
       vertical-align: middle; }
       ul li .recent-posts-content h5 {
-        color: rgba(0, 0, 0, 0.8);
         font-size: 15px;
         line-height: 18px;
         font-weight: 400; }
@@ -176,7 +175,6 @@ ul {
           ul li .recent-posts-content h5 a span {
             font-family: "Lato", serif;
             font-size: 12px;
-            color: rgba(0, 0, 0, 0.6);
             font-style: italic;
             line-height: 26px; }
             ul li .recent-posts-content h5 a span .recent-posts-img {
@@ -239,11 +237,16 @@ ul {
   padding-top: 15px; }
 
 .btn-primary {
-  background-color: #EB9486;
-  border-color: #A26769; }
+  background-color: #4D7EA8;
+  border-color: #4D7EA8; }
   .btn-primary:hover {
-    background-color: #A26769;
-    border-color: #A26769;
+    background-color: #2541B2;
+    border-color: #2541B2;
     color: white; }
+
+h5 {
+  color: #061A40;
+  padding-top: 15px;
+  font-family: 'Didact Gothic', 'Arial', sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
