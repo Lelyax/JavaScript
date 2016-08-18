@@ -25,12 +25,8 @@ ul {
       vertical-align: middle; }
 
 header.bg-image {
-  background-image: url("../img/header/mountain_2.jpg"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-  background-size: cover;
   width: 1140px;
-  margin: auto;
-  background-position: center;
-  height: 50vh; }
+  margin: auto; }
 
 .logo {
   margin: 0;

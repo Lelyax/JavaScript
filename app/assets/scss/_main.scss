@@ -35,12 +35,12 @@ ul {
 
 header {
   &.bg-image {
-    background-image: url($headerBackgroundImage), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-    background-size: cover;
+    //background-image: url($headerBackgroundImage), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    //background-size: cover;
     width: 1140px;
     margin: auto;
-    background-position: center;
-    height: 50vh;
+    //background-position: center;
+    //height: 50vh;
   }
 }
 
@@ -305,4 +305,3 @@ header {
     padding-top: 15px;
   }
 }
-
