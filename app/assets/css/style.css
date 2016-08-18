@@ -7,7 +7,7 @@
   padding-bottom: 50px; }
 
 body {
-  background-color: seashell; }
+  background-color: white; }
 
 h5 {
   color: #061A40;
@@ -120,7 +120,6 @@ header.bg-image {
   padding: 20px 0;
   margin-top: 20px;
   margin-bottom: 20px;
-  text-align: center;
   position: relative;
   font-family: 'Lobster', 'Arial', sans-serif; }
   .sidebar-container header {
@@ -141,7 +140,8 @@ header.bg-image {
 
 .list li {
   position: relative;
-  width: 100%; }
+  width: 100%;
+  text-align: left; }
   .list li:after {
     position: absolute;
     content: '';
@@ -151,8 +151,6 @@ header.bg-image {
     margin: 0 auto;
     border-top: 1px solid #f2dede;
     bottom: -20px; }
-    .list li:after .recent-posts-img {
-      padding-left: 20px; }
   .list li:last-child:after {
     border: none; }
 
@@ -184,7 +182,7 @@ header.bg-image {
 .footer {
   padding-top: 20px;
   padding-bottom: 10px;
-  background-color: white; }
+  background-color: #FFFAF9; }
 
 .footer-gallery {
   clear: both;
