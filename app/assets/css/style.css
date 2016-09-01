@@ -24,9 +24,6 @@ ul {
       display: table-cell;
       vertical-align: middle; }
 
-span {
-  font-family: 'Josefin Sans', 'Arial', sans-serif; }
-
 header.bg-image {
   width: 1140px;
   margin: auto; }
@@ -121,6 +118,22 @@ header.bg-image {
   width: 749px;
   height: 400px; }
 
+.recent-list li {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-top: 20px; }
+  .recent-list li:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-top: 1px solid #f2dede;
+    bottom: -10px; }
+
 .list li {
   position: relative;
   width: 100%;
@@ -128,17 +141,25 @@ header.bg-image {
   .list li:after {
     position: absolute;
     content: '';
-    width: 60%;
+    width: 100%;
     left: 0;
     right: 0;
     margin: 0 auto;
     border-top: 1px solid #f2dede;
     bottom: -20px; }
-  .list li:last-child:after {
-    border: none; }
+
+.recent-posts-content {
+  display: inline-block;
+  float: right;
+  width: 130px;
+  margin-right: 40px; }
+  .recent-posts-content h5 {
+    margin-top: 0; }
+    .recent-posts-content h5 h6 {
+      font-family: 'Josefin Sans', 'Arial', sans-serif; }
 
 .newsletter-btn {
-  padding: 20px; }
+  padding-top: 20px; }
   .newsletter-btn .btn-send {
     margin-top: 10px; }
 
