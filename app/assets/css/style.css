@@ -65,9 +65,9 @@ header.bg-image {
   text-decoration: none;
   font-weight: 300;
   transition: color 0.2s ease;
-  color: #DA667B; }
+  color: #2B303A; }
   .btn:hover {
-    color: #2B303A; }
+    color: #DA667B; }
 
 .main-nav {
   list-style: none;
@@ -95,6 +95,13 @@ header.bg-image {
     padding-bottom: 20px; }
     .post .post-container header h3 {
       font-family: 'Lato', 'Arial', sans-serif; }
+.post .btn-cont {
+  text-decoration: none;
+  font-weight: 300;
+  transition: color 0.2s ease;
+  color: #DA667B; }
+  .post .btn-cont:hover {
+    color: #2B303A; }
 .post.small .post-container {
   padding-top: 0; }
   .post.small .post-container .image-container {
@@ -102,9 +109,21 @@ header.bg-image {
     .post.small .post-container .image-container img {
       width: auto;
       height: 100%; }
-.post .content {
-  padding: 20px;
+.post .main-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #2B303A; }
+  .post .main-content h3 {
+    font-family: 'Indie Flower', 'Arial', sans-serif; }
+.post .content {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
   color: #2B303A; }
   .post .content h3 {
     font-family: 'Indie Flower', 'Arial', sans-serif; }
@@ -112,13 +131,22 @@ header.bg-image {
 .sidebar-container {
   padding: 20px 0;
   margin-top: 20px;
-  margin-bottom: 20px;
   position: relative;
   font-family: 'Josefin Sans', 'Arial', sans-serif; }
   .sidebar-container header {
     padding-bottom: 20px; }
     .sidebar-container header h3 {
       font-family: 'Josefin Sans', 'Arial', sans-serif; }
+
+.side-content {
+  padding-top: 30px;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #2B303A; }
+  .side-content h3 {
+    font-family: 'Indie Flower', 'Arial', sans-serif; }
 
 .image-container {
   height: auto; }
@@ -146,6 +174,9 @@ header.bg-image {
     margin: 0 auto;
     border-top: 1px solid #e8e8e8;
     bottom: -10px; }
+
+.recent-img:hover {
+  opacity: 0.7; }
 
 .list li {
   position: relative;
@@ -182,6 +213,8 @@ header.bg-image {
   padding: 0; }
   .gallery .edit img {
     width: 100%; }
+    .gallery .edit img:hover {
+      opacity: 0.7; }
 
 .icons {
   font-size: 150%; }
@@ -217,6 +250,8 @@ header.bg-image {
       width: 100%;
       height: 100%;
       padding: 10px; }
+      .footer-gallery li img:hover {
+        opacity: 0.7; }
 
 .footer-text {
   text-align: center;
