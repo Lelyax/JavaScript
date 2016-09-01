@@ -10,9 +10,9 @@ body {
   background-color: white; }
 
 h5 {
-  color: #173282;
+  color: #003566;
   padding-top: 15px;
-  font-family: 'Didact Gothic', 'Arial', sans-serif; }
+  font-family: 'Lato', 'Arial', sans-serif; }
 
 ul {
   list-style: none; }
@@ -23,6 +23,9 @@ ul {
       padding-left: 15px;
       display: table-cell;
       vertical-align: middle; }
+
+span {
+  font-family: 'Josefin Sans', 'Arial', sans-serif; }
 
 header.bg-image {
   width: 1140px;
@@ -59,49 +62,29 @@ header.bg-image {
     color: #001a33; }
 
 .main-nav {
-  float: right;
   list-style: none;
-  font-family: 'Josefin Sans', 'Arial', sans-serif; }
+  font-family: 'Lato', 'Arial', sans-serif;
+  text-align: center; }
   .main-nav li {
     display: inline-block;
-    margin-left: 25px; }
+    margin-left: 40px; }
     .main-nav li a {
-      color: #173282;
+      color: #003566;
       text-decoration: none;
       text-transform: capitalize;
       font-size: 25px; }
-
-.header-text-box {
-  position: absolute;
-  width: 1140px;
-  top: 50%;
-  left: 50%;
-  color: #fff;
-  transform: translate(-50%, -50%);
-  font-family: 'Reenie Beanie', 'Arial', sans-serif;
-  font-weight: 100;
-  text-align: center; }
-  .header-text-box p {
-    margin-top: 30%;
-    color: #fff;
-    font-size: 200%;
-    font-weight: 300;
-    letter-spacing: 1px;
-    word-spacing: 4px; }
 
 .post .post-container {
   padding: 20px 0;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: #FFFAF9;
   text-align: center;
   position: relative;
-  border: 1px solid #F4EBE8;
-  font-family: 'Lobster', 'Arial', sans-serif; }
+  font-family: 'Poiret One', 'Arial', sans-serif; }
   .post .post-container header {
     padding-bottom: 20px; }
     .post .post-container header h3 {
-      font-family: 'Didact Gothic', 'Arial', sans-serif; }
+      font-family: 'Lato', 'Arial', sans-serif; }
 .post.small .post-container {
   padding-top: 0; }
   .post.small .post-container .image-container {
@@ -121,11 +104,11 @@ header.bg-image {
   margin-top: 20px;
   margin-bottom: 20px;
   position: relative;
-  font-family: 'Lobster', 'Arial', sans-serif; }
+  font-family: 'Josefin Sans', 'Arial', sans-serif; }
   .sidebar-container header {
     padding-bottom: 20px; }
     .sidebar-container header h3 {
-      font-family: 'Didact Gothic', 'Arial', sans-serif; }
+      font-family: 'Josefin Sans', 'Arial', sans-serif; }
 
 .image-container {
   height: auto; }
@@ -169,14 +152,14 @@ header.bg-image {
   .icons .icon {
     margin: 10px; }
     .icons .icon:hover {
-      color: #173282; }
+      color: #003566; }
 
 .btn-primary {
-  background-color: #173282;
-  border-color: #173282; }
+  background-color: #003566;
+  border-color: #003566; }
   .btn-primary:hover {
-    background-color: #264d73;
-    border-color: #264d73;
+    background-color: #001a33;
+    border-color: #001a33;
     color: white; }
 
 .footer {

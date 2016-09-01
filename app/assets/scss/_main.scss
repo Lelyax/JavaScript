@@ -15,7 +15,7 @@ body {
 h5 {
   color: $mainColor;
   padding-top: 15px;
-  font-family: 'Didact Gothic', 'Arial', sans-serif;
+  font-family: 'Lato', 'Arial', sans-serif;
 }
 
 ul {
@@ -31,16 +31,16 @@ ul {
   }
 }
 
+span {
+  font-family: 'Josefin Sans', 'Arial', sans-serif;
+}
+
 // ------------HEADER-----------
 
 header {
   &.bg-image {
-    //background-image: url($headerBackgroundImage), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-    //background-size: cover;
     width: 1140px;
     margin: auto;
-    //background-position: center;
-    //height: 50vh;
   }
 }
 
@@ -54,7 +54,7 @@ header {
   line-height: 200px;
   text-align: center;
   text-transform: uppercase;
-  color: #001a33;
+  color: $mainColorDarken;
 }
 .container-logo {
   padding-bottom: 10px;
@@ -83,12 +83,12 @@ header {
 }
 
 .main-nav {
-  float: right;
   list-style: none;
-  font-family: 'Josefin Sans', 'Arial', sans-serif;
+  font-family: 'Lato', 'Arial', sans-serif;
+  text-align: center;
   li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 40px;
     a {
       color: $mainColor;
       text-decoration: none;
@@ -98,27 +98,6 @@ header {
   }
 }
 
-// TEXT-BOX
-
-.header-text-box {
-  position: absolute;
-  width: 1140px;
-  top: 50%;
-  left: 50%;
-  color: #fff;
-  transform: translate(-50%, -50%);
-  font-family: 'Reenie Beanie', 'Arial', sans-serif;
-  font-weight: 100;
-  text-align: center;
-  p {
-    margin-top: 30%;
-    color: #fff;
-    font-size: 200%;
-    font-weight: 300;
-    letter-spacing: 1px;
-    word-spacing: 4px;
-  }
-}
 
 // ------------POSTS-----------
 
@@ -127,15 +106,15 @@ header {
     padding: 20px 0;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: #FFFAF9;
+    //background-color: #FFFAF9;
     text-align: center;
     position: relative;
-    border: 1px solid #F4EBE8;
-    font-family: 'Lobster', 'Arial', sans-serif;
+    //border: 1px solid #F4EBE8;
+    font-family: 'Poiret One', 'Arial', sans-serif;
     header {
       padding-bottom: 20px;
       h3 {
-        font-family: 'Didact Gothic', 'Arial', sans-serif;
+        font-family: 'Lato', 'Arial', sans-serif;
       }
     }
   }
@@ -172,13 +151,12 @@ header {
   padding: 20px 0;
   margin-top: 20px;
   margin-bottom: 20px;
-
   position: relative;
-  font-family: 'Lobster', 'Arial', sans-serif;
+  font-family: 'Josefin Sans', 'Arial', sans-serif;
   header {
     padding-bottom: 20px;
     h3 {
-      font-family: 'Didact Gothic', 'Arial', sans-serif;
+      font-family: 'Josefin Sans', 'Arial', sans-serif;
     }
   }
 }
@@ -213,10 +191,6 @@ header {
       margin: 0 auto;
       border-top: 1px solid #f2dede;
       bottom: -20px;
-      //.recent-posts-img {
-      //  width: 85px;
-      // height: 85px;
-     // }
     }
     &:last-child:after {
       border: none;
@@ -254,8 +228,8 @@ header {
   background-color: $mainColor;
   border-color: $mainColor;
   &:hover {
-    background-color: #264d73;
-    border-color: #264d73;
+    background-color: $mainColorDarken;
+    border-color: $mainColorDarken;
     color: white;
   }
 }
