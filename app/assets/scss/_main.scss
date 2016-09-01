@@ -18,6 +18,10 @@ h5 {
   font-family: 'Lato', 'Arial', sans-serif;
 }
 
+h3 {
+  font-family: 'Lato', 'Arial', sans-serif;
+}
+
 ul {
   list-style: none;
   li {
@@ -31,6 +35,14 @@ ul {
   }
 }
 
+.info {
+  color: #95979c;
+  font-family: 'Josefin Sans', 'Arial', sans-serif;
+  &:hover {
+    color: $mainColor;
+    text-decoration: none;
+  }
+}
 
 // ------------HEADER-----------
 
@@ -51,7 +63,7 @@ header {
   line-height: 200px;
   text-align: center;
   text-transform: uppercase;
-  color: $mainColorDarken;
+  color: $mainColor;
 }
 .container-logo {
   padding-bottom: 10px;
@@ -64,8 +76,8 @@ header {
 // NAVIGATION
 
 .menu {
-  height: 100px;
   position: relative;
+  height: 100px;
   width: 1140px;
   margin: auto;
 }
@@ -74,8 +86,9 @@ header {
   text-decoration: none;
   font-weight: 300;
   transition: color 0.2s ease;
+  color: $mainColor;
   &:hover {
-    color: $mainColorDarken;
+    color: #2B303A;
   }
 }
 
@@ -83,14 +96,15 @@ header {
   list-style: none;
   font-family: 'Lato', 'Arial', sans-serif;
   text-align: center;
+  padding-top: 20px;
   li {
     display: inline-block;
     margin-left: 40px;
     a {
-      color: $mainColor;
+      color: #2B303A;
       text-decoration: none;
       text-transform: capitalize;
-      font-size: 25px;
+      font-size: 20px;
     }
   }
 }
@@ -107,7 +121,8 @@ header {
     text-align: center;
     position: relative;
     //border: 1px solid #F4EBE8;
-    font-family: 'Poiret One', 'Arial', sans-serif;
+    font-family: 'Lato', 'Arial', sans-serif;
+    padding-top: 30px;
     header {
       padding-bottom: 20px;
       h3 {
@@ -188,7 +203,7 @@ header {
       left: 0;
       right: 0;
       margin: 0 auto;
-      border-top: 1px solid #f2dede;
+      border-top: 1px solid #e8e8e8;
       bottom: -10px;
     }
   }
@@ -199,15 +214,18 @@ header {
     position: relative;
     width: 100%;
     text-align: left;
-    &:after {
-      position: absolute;
-      content: '';
-      width: 100%;
-      left: 0;
-      right: 0;
-      margin: 0 auto;
-      border-top: 1px solid #f2dede;
-      bottom: -20px;
+    span {
+      font-size: 80%;
+      &:after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        border-top: 1px solid #e8e8e8;
+        bottom: -20px;
+      }
     }
   }
 }
@@ -252,11 +270,12 @@ header {
 }
 
 .btn-primary {
-  background-color: $mainColor;
+  background-color: white;
   border-color: $mainColor;
+  color: #2B303A;
   &:hover {
-    background-color: $mainColorDarken;
-    border-color: $mainColorDarken;
+    background-color: $mainColor;
+    border-color: $mainColor;
     color: white;
   }
 }
@@ -282,11 +301,6 @@ header {
       width: 100%;
       height: 100%;
       padding: 10px;
-      &:hover {
-        opacity: 1;
-        transition: opacity 0.2s;
-        background-color: #264d73;
-      }
     }
   }
 }
