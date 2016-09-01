@@ -13,7 +13,7 @@ body {
 }
 
 h5 {
-  color: #061A40;
+  color: $mainColor;
   padding-top: 15px;
   font-family: 'Didact Gothic', 'Arial', sans-serif;
 }
@@ -54,7 +54,7 @@ header {
   line-height: 200px;
   text-align: center;
   text-transform: uppercase;
-  color: #111D4A;
+  color: #001a33;
 }
 .container-logo {
   padding-bottom: 10px;
@@ -251,11 +251,11 @@ header {
 }
 
 .btn-primary {
-  background-color: #4D7EA8;
-  border-color: #4D7EA8;
+  background-color: $mainColor;
+  border-color: $mainColor;
   &:hover {
-    background-color: #2541B2;
-    border-color: #2541B2;
+    background-color: #264d73;
+    border-color: #264d73;
     color: white;
   }
 }
@@ -284,7 +284,7 @@ header {
       &:hover {
         opacity: 1;
         transition: opacity 0.2s;
-        background-color: #A26769;
+        background-color: #264d73;
       }
     }
   }
@@ -307,3 +307,4 @@ header {
     padding-top: 15px;
   }
 }
+
