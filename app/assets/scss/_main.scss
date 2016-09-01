@@ -233,7 +233,7 @@ header {
     width: 100%;
     text-align: left;
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
     &:after {
       position: absolute;
       content: '';
@@ -260,6 +260,7 @@ header {
     text-align: left;
     span {
       font-size: 80%;
+      color: #2B303A;
       &:after {
         position: absolute;
         content: '';
@@ -291,6 +292,9 @@ header {
   padding-top: 20px;
   .btn-send {
     margin-top: 10px;
+    &:focus, .btn {
+      outline: none;
+    }
   }
 }
 

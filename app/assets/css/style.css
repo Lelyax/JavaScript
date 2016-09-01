@@ -164,7 +164,7 @@ header.bg-image {
   width: 100%;
   text-align: left;
   padding-bottom: 20px;
-  padding-top: 20px; }
+  padding-top: 10px; }
   .recent-list li:after {
     position: absolute;
     content: '';
@@ -183,7 +183,8 @@ header.bg-image {
   width: 100%;
   text-align: left; }
   .list li span {
-    font-size: 80%; }
+    font-size: 80%;
+    color: #2B303A; }
     .list li span:after {
       position: absolute;
       content: '';
@@ -208,6 +209,8 @@ header.bg-image {
   padding-top: 20px; }
   .newsletter-btn .btn-send {
     margin-top: 10px; }
+    .newsletter-btn .btn-send:focus, .newsletter-btn .btn-send .btn {
+      outline: none; }
 
 .gallery .edit {
   padding: 0; }
