@@ -113,7 +113,7 @@ header.bg-image {
   height: 1px;
   margin-bottom: 4px;
   transition: background .2s;
-  background: #000; }
+  background: #2B303A; }
 
 .bar:nth-child(2) {
   width: 15px;
@@ -171,7 +171,8 @@ header.bg-image {
   padding: 20px 0;
   margin-top: 20px;
   position: relative;
-  font-family: 'Josefin Sans', 'Arial', sans-serif; }
+  font-family: 'Josefin Sans', 'Arial', sans-serif;
+  text-align: center; }
   .sidebar-container header {
     padding-bottom: 20px; }
     .sidebar-container header h3 {
